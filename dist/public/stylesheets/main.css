@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Russo+One&display=swap');
+
+body {
+	background-image: url('/img/onset-rp.png');
+    background-size: 100vw 100vh;
+	background-attachment: fixed;
+	color: white !important;
+
+	font-family: 'Roboto', sans-serif !important;
+	overflow: auto !important;
+}
+
+html {
+	overflow: auto !important;
+}
+
+nav.navbar {
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+a.navbar-item, span.navbar-dropdown, span.navbar-link {
+	color: white;
+	background-color: transparent !important;
+}
+
+.navbar-burger {
+    color: white !important;
+}
+
+@media screen and (max-width: 1023px) { 
+    .navbar-menu {
+        background-color: grey !important;
+        color: white !important;
+        opacity: 0.85;
+    }
+}
+
+nav.navbar .navbar-item {
+    color: white;
+}
+
+nav .navbar-brand .navbar-item {
+    font-family: 'Russo One', sans-serif !important;
+}
+
+h1.title {
+	font-family: 'Russo One', sans-serif !important;
+	font-size: 32px !important;
+	color: white;
+}
+
+h1.subtitle {
+	font-size: 20px !important;
+	color: white;
+}
+
+h1.title.news {
+	color: #474747;
+}
+
+.news-title {
+	color: lightskyblue !important;
+}
+
+.news-author {
+	color: lightgray !important;
+	font-size: 12px !important;
+}

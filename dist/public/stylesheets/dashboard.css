@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Russo+One&display=swap');
+
+body, html {
+	overflow: auto !important;
+	font-family: 'Roboto', sans-serif !important;
+	background-color: #EDF0F7;
+
+	width: 100%;
+	height: 100%;
+}
+
+nav.navbar .navbar-brand a.navbar-item {
+    font-family: 'Russo One', 'Roboto', sans-serif !important;
+}
+
+.displayname {
+	font-weight: 700;
+}
+
+.container.is-fluid {
+	padding-left: 12px !important;
+	padding-right: 16px !important;
+}
+
+.aside.column.is-one-fifth {
+	background-color: white;
+	height: calc(100vh - 40px);
+}
+
+.card {
+	border-radius: 4px;
+}
+
+/**/
+.head {
+	padding-bottom: 10px;
+}
+
+.head .columns > .column {
+	font-weight: 700;
+}
+
+.body {
+	height: 156px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.body .columns {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.body .columns.selected {
+	background-color: red;
+}
+
+.column {
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+}
+
+.table {
+	background-color: white;
+	border-radius: 4px;
+}
+
+.table .head {
+	border-bottom: 2px solid #dbdbdb;
+}
